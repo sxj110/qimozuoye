@@ -42,12 +42,15 @@ Frame f = new Frame();//建立一个空窗口。
          f.setVisible(true);//显示窗口。
          
 MyActionListener myActionListener = new MyActionListener(textField);//创建一个按钮监听事件对象
+
 button1.addActionListener(myActionListener);//添加myActionListener监听事件
    f.add(button1);
+   
 button2.addActionListener(myActionListener2);//添加myActionListener监听事件
    f.add(button2);
         f.setLayout(null);//清空布局
     }
+    
 public void putcourse(){
 		if(course==null){
 			System.out.println("Not to choose course");
