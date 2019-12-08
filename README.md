@@ -126,7 +126,8 @@ public class Test {
 
 		
 四、实现
-
+![image](https://github.com/sxj110/qimozuoye/blob/master/3.PNG)
+![image](https://github.com/sxj110/qimozuoye/blob/master/4.PNG)
 
 
 五、实验心得
