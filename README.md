@@ -32,6 +32,7 @@
 
 6、本次实验是综合性实验，在40%的实验成绩中占比最大，望同学们认真对待。
 三、代码展示
+
 Frame f = new Frame();//建立一个空窗口。
       f.setTitle("Frame WHERECOME du");
       FlowLayout fl = new FlowLayout();  //使用流布局
@@ -39,6 +40,7 @@ Frame f = new Frame();//建立一个空窗口。
          f.setSize(500, 400);//设置窗口大小,
          f.setLocation(300, 200);//设置窗口的初始位置
          f.setVisible(true);//显示窗口。
+         
 MyActionListener myActionListener = new MyActionListener(textField);//创建一个按钮监听事件对象
 button1.addActionListener(myActionListener);//添加myActionListener监听事件
    f.add(button1);
@@ -46,6 +48,59 @@ button2.addActionListener(myActionListener2);//添加myActionListener监听事�
    f.add(button2);
         f.setLayout(null);//清空布局
     }
+public void putcourse(){
+		if(course==null){
+			System.out.println("Not to choose course");
+		}else{
+		this.toString();
+		}
+	}
+	public String toString(){
+	
+//		System.out.println("Student toString is operating");
+		return id+name+sex+course+teather.getName();
+	}
+public A(int id,String name,String place,int time,int mark){
+		this.id=id;
+		this.name=name;
+		this.place=place;
+		this.time=time;
+		this.mark=mark;
+	}
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPlace() {
+		return place;
+	}
+	public void setPlace(String place) {
+		this.place = place;
+	}
+	public int getTime() {
+		return time;
+	}
+	public void setTime(int time) {
+		this.time = time;
+	}
+	public int getMark() {
+		return mark;
+	}
+	public void setMark(int mark) {
+		this.mark = mark;
+	}
+}
+		
 四、实现
 
 
